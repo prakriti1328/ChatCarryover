@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Chat Carryover",
+  "version": "0.1.0",
+  "description": "Compile a previous AI chat into a continuation brief and insert it into a new chat.",
+  "permissions": ["activeTab", "scripting", "tabs", "storage", "clipboardWrite"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Chat Carryover",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

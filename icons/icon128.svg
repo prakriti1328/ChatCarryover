@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Chat Carryover">
+  <rect width="128" height="128" rx="26" fill="#18695d"/>
+  <path d="M32 35h64v38H67L43 96V73H32z" fill="#fff"/>
+  <path d="M48 50h32M48 61h22" stroke="#18695d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M81 83l11 11 11-11" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

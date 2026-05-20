@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chat Carryover</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="header">
+        <div>
+          <h1>Chat Carryover</h1>
+          <p>Turn an old AI chat into a compact continuation brief.</p>
+        </div>
+      </header>
+
+      <section class="panel">
+        <label for="sourceUrl">Previous chat link</label>
+        <div class="urlRow">
+          <input id="sourceUrl" type="url" placeholder="https://..." autocomplete="off">
+          <button id="readCurrent" title="Use the current tab">Use tab</button>
+        </div>
+        <button id="compile" class="primary">Compile previous chat</button>
+        <p id="status" class="status" role="status">Ready.</p>
+      </section>
+
+      <section class="panel">
+        <div class="rowBetween">
+          <label for="brief">Continuation brief</label>
+          <span id="briefMeta">0 words</span>
+        </div>
+        <textarea id="brief" spellcheck="false" placeholder="The compiled handoff will appear here."></textarea>
+        <div class="actions">
+          <button id="copyBrief">Copy</button>
+          <button id="insertBrief" class="primary">Insert into current chat</button>
+        </div>
+      </section>
+
+      <section class="panel settings">
+        <label class="check">
+          <input id="includeTranscript" type="checkbox">
+          <span>Include compressed transcript appendix</span>
+        </label>
+      </section>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

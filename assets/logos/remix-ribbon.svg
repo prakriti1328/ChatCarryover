@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Chat Carryover Remix Ribbon Logo</title>
+  <desc id="desc">A funky looping ribbon carrying chat context forward.</desc>
+  <defs>
+    <linearGradient id="ribbon" x1="86" y1="129" x2="418" y2="378" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF4FA3"/>
+      <stop offset=".36" stop-color="#FFD84D"/>
+      <stop offset=".72" stop-color="#1FE3B2"/>
+      <stop offset="1" stop-color="#536DFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#071A24"/>
+  <path d="M133 185c44-83 158-83 202 0l43 81c24 45-9 99-60 99H194c-51 0-84-54-60-99l43-81c24-46 89-46 113 0l37 70" fill="none" stroke="url(#ribbon)" stroke-width="54" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M154 185c38-40 93-51 143-26M304 350c-52 17-111 3-148-43" fill="none" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round" opacity=".66"/>
+  <path d="M166 210h92M166 254h58" stroke="#071A24" stroke-width="18" stroke-linecap="round"/>
+  <path d="M327 255h55m0 0-21-21m21 21-21 21" stroke="#071A24" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="119" cy="111" r="25" fill="#FFD84D"/>
+  <circle cx="407" cy="405" r="31" fill="#FF4FA3"/>
+</svg>

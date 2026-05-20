@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chat Carryover Logo Preview</title>
+    <style>
+      :root {
+        --bg: #0c1018;
+        --panel: #141a26;
+        --line: #273142;
+        --text: #f6f8fb;
+        --muted: #a7b0c0;
+        --accent: #20e3a2;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: var(--bg);
+        color: var(--text);
+      }
+
+      main {
+        width: min(1120px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 38px 0 46px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(32px, 5vw, 58px);
+        letter-spacing: 0;
+      }
+
+      .intro {
+        max-width: 680px;
+        margin: 10px 0 28px;
+        color: var(--muted);
+        line-height: 1.55;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 18px;
+      }
+
+      .card {
+        display: grid;
+        gap: 14px;
+        padding: 18px;
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+      }
+
+      .iconStage {
+        display: grid;
+        place-items: center;
+        min-height: 212px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background:
+          linear-gradient(45deg, rgba(255,255,255,.05) 25%, transparent 25%),
+          linear-gradient(-45deg, rgba(255,255,255,.05) 25%, transparent 25%),
+          linear-gradient(45deg, transparent 75%, rgba(255,255,255,.05) 75%),
+          linear-gradient(-45deg, transparent 75%, rgba(255,255,255,.05) 75%);
+        background-position: 0 0, 0 10px, 10px -10px, -10px 0;
+        background-size: 20px 20px;
+      }
+
+      img {
+        width: 148px;
+        height: 148px;
+      }
+
+      h2 {
+        margin: 0;
+        font-size: 18px;
+        letter-spacing: 0;
+      }
+
+      p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.45;
+        font-size: 14px;
+      }
+
+      .badge {
+        width: max-content;
+        padding: 5px 8px;
+        border-radius: 999px;
+        color: #05130f;
+        background: var(--accent);
+        font-size: 12px;
+        font-weight: 750;
+      }
+
+      .toolbar {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 28px;
+        padding: 12px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #f6efe6;
+        color: #1d242d;
+        overflow-x: auto;
+      }
+
+      .toolbar img {
+        width: 32px;
+        height: 32px;
+      }
+
+      .toolbar span {
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Chat Carryover Logos</h1>
+      <p class="intro">Four funky logo concepts for the extension. The first one is the safest pick for a Chrome toolbar icon; the others are stronger for store screenshots, social previews, or a future landing page.</p>
+
+      <section class="grid" aria-label="Logo options">
+        <article class="card">
+          <div class="iconStage"><img src="assets/logos/carryover-bolt.svg" alt="Carryover Bolt logo"></div>
+          <span class="badge">Recommended</span>
+          <h2>Carryover Bolt</h2>
+          <p>Fast, readable, and punchy. Best for the tiny browser toolbar size.</p>
+        </article>
+        <article class="card">
+          <div class="iconStage"><img src="assets/logos/portal-bubbles.svg" alt="Portal Bubbles logo"></div>
+          <h2>Portal Bubbles</h2>
+          <p>Clearly shows the old-chat to new-chat transfer idea.</p>
+        </article>
+        <article class="card">
+          <div class="iconStage"><img src="assets/logos/memory-spark.svg" alt="Memory Spark logo"></div>
+          <h2>Memory Spark</h2>
+          <p>Feels playful and smart, with a context-memory chip vibe.</p>
+        </article>
+        <article class="card">
+          <div class="iconStage"><img src="assets/logos/remix-ribbon.svg" alt="Remix Ribbon logo"></div>
+          <h2>Remix Ribbon</h2>
+          <p>Most expressive option, good for promo graphics and banners.</p>
+        </article>
+      </section>
+
+      <section class="toolbar" aria-label="Toolbar preview">
+        <span>Toolbar preview:</span>
+        <img src="assets/logos/carryover-bolt.svg" alt="">
+        <img src="assets/logos/portal-bubbles.svg" alt="">
+        <img src="assets/logos/memory-spark.svg" alt="">
+        <img src="assets/logos/remix-ribbon.svg" alt="">
+      </section>
+    </main>
+  </body>
+</html>

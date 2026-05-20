@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Chat Carryover Bolt Logo</title>
+  <desc id="desc">A bold chat bubble with a lightning-shaped carryover path.</desc>
+  <defs>
+    <linearGradient id="bg" x1="82" y1="58" x2="428" y2="456" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18E0B8"/>
+      <stop offset=".48" stop-color="#536DFF"/>
+      <stop offset="1" stop-color="#FF4FA3"/>
+    </linearGradient>
+    <filter id="shadow" x="44" y="54" width="424" height="424" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#15212C" flood-opacity=".24"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="#101827"/>
+  <circle cx="106" cy="100" r="38" fill="#FFD84D"/>
+  <circle cx="414" cy="404" r="44" fill="#20E3A2"/>
+  <path d="M417 121c20 34 32 70 32 108 0 116-91 210-203 210-38 0-75-11-106-31l-76 23 25-75c-26-35-41-78-41-127C48 113 139 19 251 19c47 0 91 17 126 46" fill="none" stroke="#2A3748" stroke-width="12" stroke-linecap="round" opacity=".75"/>
+  <g filter="url(#shadow)">
+    <path d="M118 136c0-35 28-63 63-63h173c35 0 63 28 63 63v133c0 35-28 63-63 63h-97l-93 86v-86h-3c-24 0-43-19-43-43z" fill="url(#bg)"/>
+    <path d="M269 107 181 247h76l-23 111 101-150h-78z" fill="#FFF6C7"/>
+    <path d="M173 176h78M323 264h36" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round" opacity=".78"/>
+  </g>
+</svg>
