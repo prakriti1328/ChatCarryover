@@ -25,9 +25,6 @@ It opens a previous chat link, extracts the readable conversation from the page,
 2. Turn on `Developer mode`.
 3. Click `Load unpacked`.
 4. Select this folder:
-
-   `C:\Users\admin\Documents\Codex\2026-05-17\design-a-chrome-extension-for-me`
-
 5. Pin `Chat Carryover` from the extensions menu.
 
 ## How To Use
